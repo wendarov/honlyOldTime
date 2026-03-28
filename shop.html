@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HonlyTime — Магазин</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="logo">HT</span>
+        <span class="brand-text"><strong>HonlyTime</strong><small>сервер на котором вам рады</small></span>
+      </a>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="rules.html">Правила</a>
+        <a class="active" href="shop.html">Магазин</a>
+        <a href="services.html">Услуги</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="section-title">
+      <h2>Магазин HonlyTime</h2>
+      <p>Чтобы купить, напишите в Telegram — @wendarov</p>
+    </div>
+
+    <section id="tokens" class="section">
+      <div class="section-title">
+        <h2>Токены и баланс</h2>
+        <p>Донат-валюта сервера</p>
+      </div>
+      <div class="catalog-grid">
+        <article class="price-card">
+          <span class="badge">Токены</span>
+          <h3>Что такое токены</h3>
+          <p>Токены — это супер донат-валюта, позволяющая открыть и бустануть себя, а также ускорить твоё выживание.</p>
+          <p class="small-note">Потратить их можно здесь: <strong>/tkits</strong>, <strong>/tshop</strong>, <strong>/case</strong>, <strong>/spawner</strong> и другое.</p>
+        </article>
+        <article class="price-card">
+          <span class="badge">Цены на токены</span>
+          <h3>Пакеты токенов</h3>
+          <div class="price-row">
+            <div class="price-chip"><span>100 токенов</span><strong>10 ₽</strong></div>
+            <div class="price-chip"><span>250 токенов</span><strong>20 ₽</strong></div>
+            <div class="price-chip"><span>500 токенов</span><strong>35 ₽</strong></div>
+          </div>
+          <div class="price-row">
+            <div class="price-chip"><span>1000 токенов</span><strong>60 ₽</strong></div>
+            <div class="price-chip"><span>5000 токенов</span><strong>199 ₽</strong></div>
+            <div class="price-chip"><span>10000 токенов</span><strong>349 ₽</strong></div>
+          </div>
+          <button class="btn btn-primary" data-buy="Токены">Купить токены</button>
+        </article>
+        <article class="price-card">
+          <span class="badge">Биржа баланс</span>
+          <h3>Валюта для биржи</h3>
+          <p>Биржа Баланс — это валюта, при помощи которой можно покупать товары в Бирже на сервере по команде <strong>/dm</strong>.</p>
+          <button class="btn btn-secondary" data-buy="Биржа баланс">Купить баланс</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="keys" class="section">
+      <div class="section-title">
+        <h2>Ключи и кейсы</h2>
+        <p>Низкие цены и быстрая выдача</p>
+      </div>
+      <div class="catalog-grid">
+        <article class="price-card">
+          <span class="badge">Обычный ключ</span>
+          <h3>Обычный ключ</h3>
+          <p>После покупки вам будет выдана услуга «Обычный ключ» на сервере. Активируется командой <strong>/warp case</strong>.</p>
+          <p class="small-note">На активацию услуги даётся 7 дней с момента покупки.</p>
+          <div class="price-row"><div class="price-chip"><span>1 ключ</span><strong>15 ₽</strong></div><div class="price-chip"><span>3 ключа</span><strong>39 ₽</strong></div><div class="price-chip"><span>5 ключей</span><strong>59 ₽</strong></div></div>
+          <button class="btn btn-primary" data-buy="Обычный ключ">Купить</button>
+        </article>
+        <article class="price-card">
+          <span class="badge">Монетный ключ</span>
+          <h3>Монетный ключ</h3>
+          <p>После покупки вам будет выдана услуга «Монетный ключ» на сервере. Активируется командой <strong>/warp case</strong>.</p>
+          <p class="small-note">На активацию услуги даётся 7 дней с момента покупки.</p>
+          <div class="price-row"><div class="price-chip"><span>1 ключ</span><strong>25 ₽</strong></div><div class="price-chip"><span>3 ключа</span><strong>65 ₽</strong></div><div class="price-chip"><span>5 ключей</span><strong>99 ₽</strong></div></div>
+          <button class="btn btn-primary" data-buy="Монетный ключ">Купить</button>
+        </article>
+        <article class="price-card">
+          <span class="badge">Токен ключ</span>
+          <h3>Токен ключ</h3>
+          <p>После покупки вам будет выдана услуга «Токен ключ» на сервере. Активируется командой <strong>/warp case</strong>.</p>
+          <p class="small-note">На активацию услуги даётся 7 дней с момента покупки.</p>
+          <div class="price-row"><div class="price-chip"><span>1 ключ</span><strong>35 ₽</strong></div><div class="price-chip"><span>3 ключа</span><strong>89 ₽</strong></div><div class="price-chip"><span>5 ключей</span><strong>129 ₽</strong></div></div>
+          <button class="btn btn-primary" data-buy="Токен ключ">Купить</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="bundles" class="section">
+      <div class="section-title">
+        <h2>Наборы</h2>
+        <p>Цены снижены в 2 раза</p>
+      </div>
+      <div class="grid-4">
+        <article class="price-card">
+          <h3>Герцог и бонусы</h3>
+          <p>В наборе: Герцог 90 дней, токены x100000, ключ к сферам x3, ключ к талисманам x3, ключ к оружию x10, ключ к броне x10, ключ к инструментам x10.</p>
+          <div class="price-chip"><span>Цена набора</span><strong>2700 ₽</strong></div>
+          <button class="btn btn-primary" data-buy="Набор Герцог и бонусы">Приобрести</button>
+        </article>
+        <article class="price-card">
+          <h3>Князька и бонусы</h3>
+          <p>В наборе: Князь 90 дней, токены x100000, ключ к сферам x3, ключ к талисманам x3, ключ к оружию x10, ключ к броне x10, ключ к инструментам x10.</p>
+          <div class="price-chip"><span>Цена набора</span><strong>1450 ₽</strong></div>
+          <button class="btn btn-primary" data-buy="Набор Князька и бонусы">Приобрести</button>
+        </article>
+        <article class="price-card">
+          <h3>Щедрый набор</h3>
+          <p>В наборе: 250000 токенов, ключ к оружию x10, ключ к броне x10, ключ к инструментам x10, ключ к ресурсам x10.</p>
+          <div class="price-chip"><span>Цена набора</span><strong>1200 ₽</strong></div>
+          <button class="btn btn-primary" data-buy="Щедрый набор">Приобрести</button>
+        </article>
+        <article class="price-card">
+          <h3>Сквид пати</h3>
+          <p>В наборе: Сквид навсегда, 50000 токенов, ключ к инструментам x25, ключ к ресурсам x25.</p>
+          <div class="price-chip"><span>Цена набора</span><strong>650 ₽</strong></div>
+          <button class="btn btn-primary" data-buy="Сквид пати">Приобрести</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="privileges" class="section">
+      <div class="section-title">
+        <h2>Привилегии</h2>
+        <p>Цена указана через запятую: 30 дней, 90 дней, навсегда</p>
+      </div>
+      <div class="price-grid">
+        <article class="rank-card">
+          <div class="rank-top"><div class="rank-name">Барон</div><div class="rank-tag">10 ₽, 15 ₽, 20 ₽</div></div>
+          <ul class="features"><li>Префикс в чате и табе: [Барон]</li><li>/kit Барон — получить набор Барона</li><li>/salary — получить зарплату</li><li>/crawl — сменить позу: красться</li><li>Доступно точек домов: 2</li><li>Регионов: 3 блока</li><li>Слотов на аукционе: 6</li><li>Задержка телепорта: 7 сек</li></ul>
+          <button class="btn btn-primary" data-buy="Барон">Купить Барон</button>
+        </article>
+        <article class="rank-card">
+          <div class="rank-top"><div class="rank-name">Страж</div><div class="rank-tag">20 ₽, 25 ₽, 30 ₽</div></div>
+          <ul class="features"><li>Префикс в чате и табе: [Страж]</li><li>/kit Страж — получить набор Стража</li><li>/suicide — покончить жизнь самоубийством</li><li>/dchat — воспользоваться донат-чатом</li><li>Точки домов: 2</li><li>Регионов: 3 блока</li><li>Слотов на аукционе: 7</li><li>Задержка телепорта: 6 сек</li></ul>
+          <button class="btn btn-primary" data-buy="Страж">Купить Страж</button>
+        </article>
+        <article class="rank-card">
+          <div class="rank-top"><div class="rank-name">Герой</div><div class="rank-tag">50 ₽, 59 ₽, 65 ₽</div></div>
+          <ul class="features"><li>Префикс в чате и табе: [Герой]</li><li>/kit Герой — получить набор Героя</li><li>/top — телепортация вверх</li><li>/hat — надеть блок на голову</li><li>Точки домов: 2</li><li>Регионов: 4 блока</li><li>Слотов на аукционе: 8</li><li>Задержка телепорта: 6 сек</li></ul>
+          <button class="btn btn-primary" data-buy="Герой">Купить Герой</button>
+        </article>
+        <article class="rank-card">
+          <div class="rank-top"><div class="rank-name">Аспид</div><div class="rank-tag">70 ₽, 81 ₽, 86 ₽</div></div>
+          <ul class="features"><li>Префикс в чате и табе: [Аспид]</li><li>/kit Аспид — получить набор Аспида</li><li>/clear — очистить инвентарь</li><li>/feed — восстановить голод</li><li>/heal — восстановить здоровье</li><li>/me — написать в чат реакции</li><li>Точки домов: 2</li><li>Регионов: 4 блока</li><li>Слотов на аукционе: 9</li><li>Задержка телепорта: 6 сек</li></ul>
+          <button class="btn btn-primary" data-buy="Аспид">Купить Аспид</button>
+        </article>
+        <article class="rank-card">
+          <div class="rank-top"><div class="rank-name">Сквид</div><div class="rank-tag">90 ₽, 95 ₽, 100 ₽</div></div>
+          <ul class="features"><li>Префикс в чате и табе: [Сквид]</li><li>/kit Сквид — получить набор Сквида</li><li>/back — вернуться на место смерти</li><li>/ec — открыть эндер сундук</li><li>/wbendch — открыть портативный верстак</li><li>/ad — написать в чат рекламы</li><li>/buy — написать в чат покупки</li><li>/sell — написать в чат продажи</li><li>/name — изменить название предмета</li><li>Точки домов: 3</li><li>Регионов: 5 блоков</li><li>Слотов на аукционе: 10</li></ul>
+          <button class="btn btn-primary" data-buy="Сквид">Купить Сквид</button>
+        </article>
+        <article class="rank-card">
+          <div class="rank-top"><div class="rank-name">Глава</div><div class="rank-tag">110 ₽, 115 ₽, 120 ₽</div></div>
+          <ul class="features"><li>Префикс в чате и табе: [Глава]</li><li>/kit Глава — получить набор Главы</li><li>/salary — получить зарплату</li><li>/bc — написать в чат объявления</li><li>/ext — потушить себя командой</li><li>/am toggle — отключить авто-сообщения</li><li>/msgtoggle — отключить личные сообщения</li><li>/paytoggle — отключить получение платежей</li><li>/ptoggle — отключить телепортации</li><li>/feed Ник — покормить игрока</li><li>/heal Ник — вылечить игрока</li><li>/exp — получить бесплатный опыт</li></ul>
+          <button class="btn btn-primary" data-buy="Глава">Купить Глава</button>
+        </article>
+        <article class="rank-card">
+          <div class="rank-top"><div class="rank-name">Элита</div><div class="rank-tag">130 ₽, 137 ₽, 146 ₽</div></div>
+          <ul class="features"><li>Префикс в чате и табе: [Элита]</li><li>/kit Элита — получить набор Элиты</li><li>/time — установить время</li><li>/weather — установить погоду</li><li>/loom — открыть ткацкий станок</li><li>/carttable — открыть стол картографа</li><li>/msgtoggle — отключить личные сообщения</li><li>/beezooka — выстрельнуть пчелой</li><li>/kittycannon — выстрелить котом</li><li>/firework — настроить фейерверк</li><li>/name — изменить назв. предмета цветным</li></ul>
+          <button class="btn btn-primary" data-buy="Элита">Купить Элита</button>
+        </article>
+        <article class="rank-card">
+          <div class="rank-top"><div class="rank-name">Титан</div><div class="rank-tag">156 ₽, 170 ₽, 176 ₽</div></div>
+          <ul class="features"><li>Префикс в чате и табе: [Титан]</li><li>/kit Титан — получить набор Титана</li><li>/jump — телепортация на блок взгляда</li><li>/afk — установить режим «АФК»</li><li>/setwarp — установить точку варпа</li><li>/delwarp — удалить точку варпа</li><li>/repair — починить вещь в руке</li><li>Точки домов: 4</li><li>Регионов: 8 блоков</li><li>Слотов на аукционе: 13</li><li>Задержка телепорта: 3 сек</li></ul>
+          <button class="btn btn-primary" data-buy="Титан">Купить Титан</button>
+        </article>
+        <article class="rank-card">
+          <div class="rank-top"><div class="rank-name">Принц</div><div class="rank-tag">187 ₽, 194 ₽, 200 ₽</div></div>
+          <ul class="features"><li>Префикс в чате и табе: [Принц]</li><li>/kit Принц — получить набор Принца</li><li>/smithtable — открыть стол кузнеца</li><li>/stonecutter — открыть камнерез</li><li>/grindstone — открыть точило</li><li>Точки домов: 5</li><li>Регионов: 9 блоков</li><li>Слотов на аукционе: 14</li><li>Задержка телепорта: 3 сек</li></ul>
+          <button class="btn btn-primary" data-buy="Принц">Купить Принц</button>
+        </article>
+        <article class="rank-card">
+          <div class="rank-top"><div class="rank-name">Князь</div><div class="rank-tag">210 ₽, 215 ₽, 220 ₽</div></div>
+          <ul class="features"><li>Префикс в чате и табе: [Князь]</li><li>/kit Князь — получить набор Князя</li><li>/fly — включить режим полёта</li><li>/amute — выдать мут игроку</li><li>/enchant — зачаровать предмет в руке</li><li>/anvil — открыть портативную наковальню</li><li>/speed — установить скорость передвижения</li><li>/salary — получить зарплату</li><li>/exp — получить бесплатный опыт</li><li>Не кикает за АФК</li><li>Точки домов: 7</li><li>Регионов: 10 блоков</li></ul>
+          <button class="btn btn-primary" data-buy="Князь">Купить Князь</button>
+        </article>
+        <article class="rank-card">
+          <div class="rank-top"><div class="rank-name">Герцог</div><div class="rank-tag">240 ₽, 245 ₽, 254 ₽</div></div>
+          <ul class="features"><li>Префикс в чате и табе: [Герцог]</li><li>/kit — получить наборы Герцога</li><li>/enchant — зачаровать предмет в руке</li><li>/anvil — открыть портативную наковальню</li><li>/speed — установить скорость передвижения</li><li>/salary — получить зарплату</li><li>/exp — получить бесплатный опыт</li><li>Вход на заполненный сервер</li><li>Нет задержки телепортации</li><li>Точки домов: 10</li><li>Регионов: 15 блоков</li><li>Слотов на аукционе: 15</li></ul>
+          <button class="btn btn-primary" data-buy="Герцог">Купить Герцог</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-wrap">
+    <div class="container footer-shell">
+      <div class="footer-grid">
+        <div class="copy-note">
+          <div>Сервер HonlyTime никак не относится к Mojang, AB.</div>
+          <div>Копирование контента с сайта и сервера проекта запрещено.</div>
+          <div class="footer-links"><a href="rules.html">Договор оферты</a><a href="rules.html">Политика обработки персональных данных</a></div>
+        </div>
+        <div class="footer-brand">
+          <span class="logo small">HT</span>
+          <div>© 2026 HonlyTime<br>Все права защищены</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="buyModal">
+    <div class="modal-card">
+      <h3 id="modalTitle">Покупка</h3>
+      <p id="modalText">Чтобы купить, напишите в Telegram — @wendarov</p>
+      <div class="modal-actions">
+        <a class="telegram-link" href="https://t.me/wendarov" target="_blank" rel="noopener noreferrer">Открыть Telegram</a>
+        <button class="btn btn-secondary" data-close>Закрыть</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

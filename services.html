@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HonlyTime — Услуги</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="logo">HT</span>
+        <span class="brand-text"><strong>HonlyTime</strong><small>сервер на котором вам рады</small></span>
+      </a>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="rules.html">Правила</a>
+        <a href="shop.html">Магазин</a>
+        <a class="active" href="services.html">Услуги</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="section-title">
+      <h2>Дополнительные услуги</h2>
+      <p>Оформление через Telegram</p>
+    </div>
+
+    <div class="service-grid">
+      <article class="service-card">
+        <span class="badge">Размут</span>
+        <h3>Снятие мута</h3>
+        <div class="price">39 ₽</div>
+        <p>Подходит, если вы получили мут и хотите быстро снять ограничение чата. Перед покупкой лучше уточнить ваш ник и причину наказания.</p>
+        <button class="btn btn-primary" data-buy="Размут">Купить размут</button>
+      </article>
+      <article class="service-card">
+        <span class="badge">Разбан</span>
+        <h3>Снятие блокировки</h3>
+        <div class="price">79 ₽</div>
+        <p>Если ваш аккаунт был заблокирован, можно оформить разбан. Администрация вправе отказать при серьёзных нарушениях.</p>
+        <button class="btn btn-primary" data-buy="Разбан">Купить разбан</button>
+      </article>
+    </div>
+
+    <section class="section">
+      <div class="cta-banner">
+        <div>
+          <h2 style="margin:0 0 8px">Покупка происходит быстро</h2>
+          <div class="muted">Нажмите на кнопку товара, и сайт сразу покажет, куда писать.</div>
+        </div>
+        <button class="btn btn-primary" data-buy="Любая услуга">Связаться по покупке</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-wrap">
+    <div class="container footer-shell">
+      <div class="footer-grid">
+        <div class="copy-note">
+          <div>Сервер HonlyTime никак не относится к Mojang, AB.</div>
+          <div>Копирование контента с сайта и сервера проекта запрещено.</div>
+          <div class="footer-links"><a href="rules.html">Договор оферты</a><a href="rules.html">Политика обработки персональных данных</a></div>
+        </div>
+        <div class="footer-brand">
+          <span class="logo small">HT</span>
+          <div>© 2026 HonlyTime<br>Все права защищены</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="buyModal">
+    <div class="modal-card">
+      <h3 id="modalTitle">Покупка</h3>
+      <p id="modalText">Чтобы купить, напишите в Telegram — @wendarov</p>
+      <div class="modal-actions">
+        <a class="telegram-link" href="https://t.me/wendarov" target="_blank" rel="noopener noreferrer">Открыть Telegram</a>
+        <button class="btn btn-secondary" data-close>Закрыть</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

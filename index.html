@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HonlyTime — сервер на котором вам рады</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="logo">HT</span>
+        <span class="brand-text"><strong>HonlyTime</strong><small>сервер на котором вам рады</small></span>
+      </a>
+      <nav>
+        <a class="active" href="index.html">Главная</a>
+        <a href="rules.html">Правила</a>
+        <a href="shop.html">Магазин</a>
+        <a href="services.html">Услуги</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-card">
+        <span class="kicker">Добро пожаловать</span>
+        <h1>HonlyTime — сервер на котором вам рады</h1>
+        <p>Уютный Minecraft-сервер с привилегиями, кейсами, токенами и понятными правилами. Всё уже оформлено: цены, описание услуг, страницы магазина и удобные кнопки покупки через Telegram.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="shop.html">Открыть магазин</a>
+          <a class="btn btn-secondary" href="rules.html">Посмотреть правила</a>
+        </div>
+      </div>
+      <aside class="hero-side">
+        <div class="big-logo">HT</div>
+        <div class="ip-box">
+          <strong>IP сервера</strong>
+          <code>honlyoldtime.rustix.su</code>
+        </div>
+        <div class="notice">Чтобы купить любой товар, напишите в Telegram: <strong>@wendarov</strong></div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <h2>Что есть на сайте</h2>
+        <p>Всё уже готово для GitHub Pages</p>
+      </div>
+      <div class="grid-3">
+        <article class="card">
+          <h3>Правила сервера</h3>
+          <p>Коротко и понятно: без читов, грифа, спама и токсичности.</p>
+        </article>
+        <article class="card">
+          <h3>Магазин</h3>
+          <p>Токены, ключи, наборы и привилегии от Барона до Герцога.</p>
+        </article>
+        <article class="card">
+          <h3>Услуги</h3>
+          <p>Размут и разбан с готовыми кнопками покупки через Telegram.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <h2>Быстрые разделы</h2>
+        <p>Открой нужную страницу</p>
+      </div>
+      <div class="anchor-list">
+        <a href="shop.html#privileges">Привилегии</a>
+        <a href="shop.html#tokens">Токены</a>
+        <a href="shop.html#keys">Ключи</a>
+        <a href="shop.html#bundles">Наборы</a>
+        <a href="services.html">Размут и разбан</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-wrap">
+    <div class="container footer-shell">
+      <div class="footer-grid">
+        <div class="copy-note">
+          <div>Сервер HonlyTime никак не относится к Mojang, AB.</div>
+          <div>Копирование контента с сайта и сервера проекта запрещено.</div>
+          <div class="footer-links"><a href="rules.html">Договор оферты</a><a href="rules.html">Политика обработки персональных данных</a></div>
+        </div>
+        <div class="footer-brand">
+          <span class="logo small">HT</span>
+          <div>© 2026 HonlyTime<br>Все права защищены</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="buyModal">
+    <div class="modal-card">
+      <h3 id="modalTitle">Покупка</h3>
+      <p id="modalText">Чтобы купить, напишите в Telegram — @wendarov</p>
+      <div class="modal-actions">
+        <a class="telegram-link" href="https://t.me/wendarov" target="_blank" rel="noopener noreferrer">Открыть Telegram</a>
+        <button class="btn btn-secondary" data-close>Закрыть</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
